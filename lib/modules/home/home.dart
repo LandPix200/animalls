@@ -35,7 +35,9 @@ class HomePage extends StatelessWidget {
                   decoration: const InputDecoration(
                     labelText: "Entre le nom de ton animal",
                     border: OutlineInputBorder(),
-                    hintText: "Ex: Lapin",
+                    hintText: "ex: Le lapin",
+                    helperText:
+                        "Veuillez toujours ajouter un article devant le mot (ex: Le lapin)",
                   ),
                 ),
               ),
@@ -58,7 +60,7 @@ class HomePage extends StatelessWidget {
                 child: const Text(
                   "Go",
                 ),
-              )
+              ),
             ],
           ),
         ),
